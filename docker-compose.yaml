@@ -1,6 +1,0 @@
-service:
-  apphome:
-    image: apphome
-    build:
-      context: .
-      dockerfile: Dockerfile
