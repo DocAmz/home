@@ -1,5 +1,5 @@
-import { FolderGit2 } from "lucide-react";
-import { Code, FileText, Image, MessageSquare, Music, Video } from "lucide-react"
+import { Cpu, FolderGit2 } from "lucide-react";
+import { Code, FileText, Image, Music, Video } from "lucide-react"
 import Link from "next/link";
 
 type Tool = {
@@ -10,7 +10,7 @@ type Tool = {
 }
 
 const tools: Tool[] = [
-  { name: "Chat", icon: MessageSquare, href: "#", color: "bg-gray-500" },
+  { name: "Tool", icon: Cpu, href: "https://tools.p49.me", color: "bg-blue-800" },
   { name: "Image", icon: Image, href: "#", color: "bg-gray-500" },
   { name: "Video", icon: Video, href: "#", color: "bg-gray-500" },
   { name: "Audio", icon: Music, href: "#", color: "bg-gray-500" },
